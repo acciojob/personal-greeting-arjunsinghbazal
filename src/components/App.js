@@ -10,7 +10,7 @@ const App = () => {
   }
   return (
     <>
-      <h1>Enter your name:</h1>
+      <p>Enter your name:</p>
       <input type="text" onChange={update}/>
       {current?<p>Hello {value}!</p>:null}
     </>
